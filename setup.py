@@ -33,7 +33,6 @@ setup(
     install_requires=[
             'arrow',
             'python-dateutil',
-            'python-memcached',
             'pytz',
             'tqdm',
     ],
