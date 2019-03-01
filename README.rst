@@ -3,6 +3,7 @@
 edc-utils
 --------
 
+Simple utilities for clinicedc/edc projects.
 
 .. |pypi| image:: https://img.shields.io/pypi/v/edc-utils.svg
     :target: https://pypi.python.org/pypi/edc-utils
