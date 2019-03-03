@@ -8,10 +8,6 @@ dist: xenial
 
 sudo: true
 
-addons:
-  apt_packages:
-  - libcups2-dev
-
 services:
 - mysql
 
