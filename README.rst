@@ -1,7 +1,7 @@
 |pypi| |travis| |codecov| |downloads|
 
 edc-utils
---------
+---------
 
 Simple utilities for clinicedc/edc projects.
 
