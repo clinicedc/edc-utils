@@ -4,12 +4,16 @@ dist: xenial
 
 sudo: true
 
+addons:
+  apt_packages:
+    - libcups2-dev
+
 services:
   - mysql
 
 install:
   - pip install --upgrade pip
-  - pip install flake8 coverage codecov tox-travis
+  - pip install flake8 coveralls tox-travis
 
 before_script:
   - flake8 edc_utils
@@ -23,9 +27,7 @@ after_success:
 
 matrix:
   include:
-    - python: 3.6
-      env: TOXENV=py36-django22
     - python: 3.7
       env: TOXENV=py37-django22
-;    - python: 3.7
-;      env: TOXENV=py37-djangotrunk
+;   - python: 3.7
+;     env: TOXENV=py37-djangotrunk
