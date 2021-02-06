@@ -1,4 +1,4 @@
-|pypi| |travis| |codecov| |downloads|
+|pypi| |actions| |codecov| |downloads|
 
 edc-utils
 ---------
@@ -7,10 +7,10 @@ Simple utilities for clinicedc/edc projects.
 
 .. |pypi| image:: https://img.shields.io/pypi/v/edc-utils.svg
     :target: https://pypi.python.org/pypi/edc-utils
-    
-.. |travis| image:: https://travis-ci.com/clinicedc/edc-utils.svg?branch=develop
-    :target: https://travis-ci.com/clinicedc/edc-utils
-    
+
+.. |actions| image:: https://github.com/clinicedc/edc-utils/workflows/build/badge.svg?branch=develop
+  :target: https://github.com/clinicedc/edc-utils/actions?query=workflow:build
+
 .. |codecov| image:: https://codecov.io/gh/clinicedc/edc-utils/branch/develop/graph/badge.svg
   :target: https://codecov.io/gh/clinicedc/edc-utils
 
