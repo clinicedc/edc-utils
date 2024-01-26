@@ -1,8 +1,10 @@
+
 _version.py
 .project
 .pydevproject
 .settings/
 .env
+django_crypto_fields
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
