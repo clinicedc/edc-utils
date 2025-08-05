@@ -5,13 +5,14 @@ from pathlib import Path
 from edc_test_settings.default_test_settings import DefaultTestSettings
 
 app_name = "edc_utils"
-base_dir = Path(__file__).absolute().parent.parent.parent
+base_dir = Path(__file__).absolute().parent.parent
 
 project_settings = DefaultTestSettings(
     calling_file=__file__,
     BASE_DIR=base_dir,
     APP_NAME=app_name,
-    ETC_DIR=str(base_dir / app_name / "tests" / "etc"),
+    ETC_DIR=str(base_dir / "tests" / "etc"),
+    DJANGO_REVISION_IGNORE_WORKING_DIR=True,
     SILENCED_SYSTEM_CHECKS=["sites.E101", "edc_sites.E001", "edc_sites.E002"],
     SUBJECT_VISIT_MODEL="edc_visit_tracking.subjectvisit",
     INSTALLED_APPS=[

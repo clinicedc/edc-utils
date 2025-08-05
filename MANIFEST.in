@@ -1,5 +1,0 @@
-include AUTHORS CHANGES LICENSE VERSION
-include MANIFEST.in
-include *.rst
-include *.txt
-include */locale/*/LC_MESSAGES/*.mo
